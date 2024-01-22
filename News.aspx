@@ -1,46 +1,46 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="News.aspx.cs" Inherits="News" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="News.html.cs" Inherits="News" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-          <title>News - ASPEN ENGINEERING</title>
-          <meta charset="utf-8"/>
-          <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-          <meta content="" name="keywords"/>
-          <meta content="" name="description"/>
-          <link href="img/favicon.png" rel="icon"/>
-          <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet"/>
-          <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-          <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
-          <link href="lib/animate/animate.min.css" rel="stylesheet"/>
-          <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet"/>
-          <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"/>
-          <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"/>
-          <link href="css/style.css" rel="stylesheet"/>
-    </head>
+    <title>News - ASPEN ENGINEERING</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="" name="keywords"/>
+    <meta content="" name="description"/>
+    <link href="img/favicon.png" rel="icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet"/>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="lib/animate/animate.min.css" rel="stylesheet"/>
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet"/>
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"/>
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
 <body>
     <form id="form1" runat="server">
           <header id="header">
             <div class="container-fluid">
 
               <div id="logo" class="pull-left">
-                <h1><a href="Index.aspx" class="scrollto">ASPEN</a></h1>
+                <h1><a href="Index.html" class="scrollto">ASPEN</a></h1>
               </div>
 
               <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                  <li><a href="Index.aspx">Home</a></li>
-                  <li><a href="About.aspx">About Us</a></li>
-                  <li><a href="services.aspx">Services</a></li>
-                  <li><a href="Projects.aspx">Projects</a></li>
+                  <li><a href="Index.html">Home</a></li>
+                  <li><a href="About.html">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="Projects.html">Projects</a></li>
                   <!--<li class="menu-has-children"><a href="">Others</a>
                     <ul>
                       <li><a href="#">Careers</a></li>
                       <li><a href="#">News</a></li>
                     </ul>
                   </li>-->
-                  <li><a href="Careers.aspx">Careers</a></li>
-                    <li class="menu-active"><a href="News.aspx">News</a></li>
-                  <li><a href="ContactUs.aspx">Contact Us</a></li>
+                  <li><a href="Careers.html">Careers</a></li>
+                    <li class="menu-active"><a href="News.html">News</a></li>
+                  <li><a href="ContactUs.html">Contact Us</a></li>
                 </ul>
               </nav>
             </div>
@@ -113,6 +113,32 @@
           </div>
         </section>
 
+		<%--<div class="container">
+			<section class="ac-container">
+				<div>
+					<input id="ac-1" name="accordion-1" type="radio" />
+					<label for="ac-1">Engineer</label>
+					<article class="ac-large">
+					    <p>Check your login details. Your login username is the email address you used for registration.</p>
+					</article>
+				</div>
+				<div>
+					<input id="ac-2" name="accordion-1" type="radio" />
+					<label for="ac-2"> Accountant</label>
+					<article class="ac-large">
+					    <p>Check your login details. Your login username is the email address you used for registration.</p>
+					</article>
+				</div>
+				<div>
+					<input id="ac-3" name="accordion-1" type="radio" />
+					<label for="ac-3">Help Desk</label>
+					<article class="ac-large">
+					    <p>Check your login details. Your login username is the email address you used for registration.</p>
+					</article>
+				</div>	
+			</section>
+        </div>--%>
+
         <footer id="footer">
         <div class="footer-top">
             <div class="container">
@@ -126,12 +152,12 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                 <h4>Useful Links</h4>
                 <ul>
-                    <li><i class="ion-ios-arrow-right"></i> <a href="index.aspx">Home</a></li>
-                    <li><i class="ion-ios-arrow-right"></i> <a href="About.aspx">About us</a></li>
-                    <li><i class="ion-ios-arrow-right"></i> <a href="Services.aspx">Services</a></li>
-                    <li><i class="ion-ios-arrow-right"></i> <a href="Projects.aspx">Projects</a></li>
-                    <li><i class="ion-ios-arrow-right"></i> <a href="Careers.aspx">Careers</a></li>
-                    <li><i class="ion-ios-arrow-right"></i> <a href="News.aspx">News</a></li>
+                    <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Home</a></li>
+                    <li><i class="ion-ios-arrow-right"></i> <a href="About.html">About us</a></li>
+                    <li><i class="ion-ios-arrow-right"></i> <a href="Services.html">Services</a></li>
+                    <li><i class="ion-ios-arrow-right"></i> <a href="Projects.html">Projects</a></li>
+                    <li><i class="ion-ios-arrow-right"></i> <a href="Careers.html">Careers</a></li>
+                    <li><i class="ion-ios-arrow-right"></i> <a href="News.html">News</a></li>
                 </ul>
                 </div>
 
@@ -143,8 +169,8 @@
                     Egypt <br>
                     <strong>Phone:</strong> +20 2 25426017<br>
                     <strong>Email:</strong> 
-                    <asp:LinkButton ID="InfoBtn" runat="server">info@aspen-eng.com</asp:LinkButton><br>
-                    <asp:LinkButton ID="HBtn" runat="server">h.hussein@aspen-eng.com</asp:LinkButton><br>
+                    <p><a href="mailto:info@aspen-eng.com">info@aspen-eng.com</a>
+                    <a href="mailto:h.hussein@aspen-eng.com">h.hussein@aspen-eng.com</a></p>
                 </p>
 
                 <div class="social-links">

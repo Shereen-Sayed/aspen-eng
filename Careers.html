@@ -1,10 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ContactUs.html.cs" Inherits="ContactUs" %>
-
-<!DOCTYPE html>
-
+﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head id="Head1" runat="server">
-    <title>Contact us - ASPEN ENGINEERING</title>
+<head>
+        <title>Careers - ASPEN ENGINEERING</title>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta content="" name="keywords"/>
@@ -18,39 +15,36 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"/>
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
-    </head>
+</head>
 <body>
-    <form id="form1" runat="server">
-        <header id="header">
-    <div class="container-fluid">
+     <header id="header">
+        <div class="container-fluid">
 
-      <div id="logo" class="pull-left">
-        <h1><a href="Index.html" class="scrollto">ASPEN</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
-      </div>
+          <div id="logo" class="pull-left">
+            <h1><a href="Index.html" class="scrollto">ASPEN</a></h1>
+          </div>
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="About.html">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="Projects.html">Projects</a></li>
-          <!--<li class="menu-has-children"><a href="">Others</a>
-            <ul>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">News</a></li>
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="About.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="Projects.html">Projects</a></li>
+              <!--<li class="menu-has-children"><a href="">Others</a>
+                <ul>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">News</a></li>
+                </ul>
+              </li>-->
+              <li class="menu-active"><a href="Careers.html">Careers</a></li>
+                <li><a href="News.html">News</a></li>
+              <li><a href="ContactUs.html">Contact Us</a></li>
             </ul>
-          </li>-->
-          <li><a href="Careers.html">Careers</a></li>
-            <li><a href="News.html">News</a></li>
-          <li class="menu-active"><a href="ContactUs.html">Contact Us</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header>
+          </nav><
+        </div>
+      </header>
 
-        <section id="about">
+      <section id="about">
           <div class="container">
           </div>
         </section>
@@ -59,41 +53,7 @@
           <div class="container">
 
             <div class="section-header">
-              <h3>Contact Us</h3>
-              <p>Aspen Engineering Company LTD.</br>
-                For Engineering, and Contracting</br>
-                General Manager</br>
-                Hisham Hussein Ahmad</p>
-            </div>
-
-            <div class="row contact-info">
-
-              <div class="col-md-4">
-                <div class="contact-address">
-                  <i class="ion-ios-location-outline"></i>
-                  <h3>Address</h3>
-                  <address>Villa No. 88, Fifth zone, Fourth District, Fifth settlement,
-                            New Cairo city, Cairo, Egypt</address>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="contact-phone">
-                  <i class="ion-ios-telephone-outline"></i>
-                  <h3>Phone Number</h3>
-                  <p><a href="tel:+155895548855">+20 2 25426017</a></p>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="contact-email">
-                  <i class="ion-ios-email-outline"></i>
-                  <h3>Email</h3>
-                  <p><a href="mailto:info@aspen-eng.com">info@aspen-eng.com</a></p>
-                    <p><a href="mailto:h.hussein@aspen-eng.com">h.hussein@aspen-eng.com</a></p>
-                </div>
-              </div>
-
+              <h3>JOIN OUR TEAM</h3>
             </div>
 
             <div class="form">
@@ -118,8 +78,11 @@
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
-                <div class="text-center"><button type="submit">Send Message</button></br></br>
-                    <p>Kindly send your inquires on info@aspen-eng.com</p>
+                  <div class="form-group">
+                    <asp:FileUpload ID="UpLoadCV" runat="server" />
+                  </div>
+                <div class="text-center"><button type="submit">Submit</button></br></br>
+                    <p>Kindly send your CV on hr@aspen-eng.com</p>
                 </div>
               </form>
             </div>
@@ -192,7 +155,6 @@
 
       <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-      <!-- JavaScript Libraries -->
       <script src="lib/jquery/jquery.min.js"></script>
       <script src="lib/jquery/jquery-migrate.min.js"></script>
       <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -206,11 +168,7 @@
       <script src="lib/isotope/isotope.pkgd.min.js"></script>
       <script src="lib/lightbox/js/lightbox.min.js"></script>
       <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-      <!-- Contact Form JavaScript File -->
       <script src="contactform/contactform.js"></script>
-
-      <!-- Template Main Javascript File -->
       <script src="js/main.js"></script>
-        </form>
-    </body>
+</body>
 </html>

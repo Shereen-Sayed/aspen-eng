@@ -1,10 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ContactUs.html.cs" Inherits="ContactUs" %>
-
-<!DOCTYPE html>
-
+﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head id="Head1" runat="server">
-    <title>Contact us - ASPEN ENGINEERING</title>
+<head>
+        <title>News - ASPEN ENGINEERING</title>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta content="" name="keywords"/>
@@ -18,114 +15,127 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"/>
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
-    </head>
+</head>
 <body>
-    <form id="form1" runat="server">
-        <header id="header">
-    <div class="container-fluid">
+     <header id="header">
+            <div class="container-fluid">
 
-      <div id="logo" class="pull-left">
-        <h1><a href="Index.html" class="scrollto">ASPEN</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
-      </div>
+              <div id="logo" class="pull-left">
+                <h1><a href="Index.html" class="scrollto">ASPEN</a></h1>
+              </div>
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="About.html">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="Projects.html">Projects</a></li>
-          <!--<li class="menu-has-children"><a href="">Others</a>
-            <ul>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">News</a></li>
-            </ul>
-          </li>-->
-          <li><a href="Careers.html">Careers</a></li>
-            <li><a href="News.html">News</a></li>
-          <li class="menu-active"><a href="ContactUs.html">Contact Us</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header>
-
+              <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                  <li><a href="Index.html">Home</a></li>
+                  <li><a href="About.html">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="Projects.html">Projects</a></li>
+                  <!--<li class="menu-has-children"><a href="">Others</a>
+                    <ul>
+                      <li><a href="#">Careers</a></li>
+                      <li><a href="#">News</a></li>
+                    </ul>
+                  </li>-->
+                  <li><a href="Careers.html">Careers</a></li>
+                    <li class="menu-active"><a href="News.html">News</a></li>
+                  <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+     
         <section id="about">
           <div class="container">
           </div>
         </section>
 
-        <section id="contact" class="section-bg wow fadeInUp">
+        <section id="skills">
           <div class="container">
 
-            <div class="section-header">
-              <h3>Contact Us</h3>
-              <p>Aspen Engineering Company LTD.</br>
-                For Engineering, and Contracting</br>
-                General Manager</br>
-                Hisham Hussein Ahmad</p>
-            </div>
+            <header class="section-header">
+              <h3>News</h3>
+              <p>Cosmos-E has multi-engineering disciplinary as follows</p>
+            </header>
 
-            <div class="row contact-info">
+            <div class="skills-content">
 
-              <div class="col-md-4">
-                <div class="contact-address">
-                  <i class="ion-ios-location-outline"></i>
-                  <h3>Address</h3>
-                  <address>Villa No. 88, Fifth zone, Fourth District, Fifth settlement,
-                            New Cairo city, Cairo, Egypt</address>
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill"><a href="#" class="scrollto">Structural</a> <i class="val"></i></span>
                 </div>
               </div>
 
-              <div class="col-md-4">
-                <div class="contact-phone">
-                  <i class="ion-ios-telephone-outline"></i>
-                  <h3>Phone Number</h3>
-                  <p><a href="tel:+155895548855">+20 2 25426017</a></p>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill"><a href="#" class="scrollto">Architectural</a><i class="val"></i></span>
                 </div>
               </div>
 
-              <div class="col-md-4">
-                <div class="contact-email">
-                  <i class="ion-ios-email-outline"></i>
-                  <h3>Email</h3>
-                  <p><a href="mailto:info@aspen-eng.com">info@aspen-eng.com</a></p>
-                    <p><a href="mailto:h.hussein@aspen-eng.com">h.hussein@aspen-eng.com</a></p>
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill"><a href="#" class="scrollto">Electrical</a><i class="val"></i></span>
                 </div>
               </div>
 
-            </div>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill"><a href="#" class="scrollto">Mechanical</a><i class="val"></i></span>
+                </div>
+              </div>
 
-            <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group col-md-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
-                  </div>
+                <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill"><a href="#" class="scrollto">Roads</a><i class="val"></i></span>
                 </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
+              </div>
+
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill"><a href="#" class="scrollto">Steel Inspection</a><i class="val"></i></span>
                 </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
+              </div>
+
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill"><a href="#" class="scrollto">BIM Unit</a><i class="val"></i></span>
                 </div>
-                <div class="text-center"><button type="submit">Send Message</button></br></br>
-                    <p>Kindly send your inquires on info@aspen-eng.com</p>
+              </div>
+
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill"><a href="#" class="scrollto">Value Engineering</a><i class="val"></i></span>
                 </div>
-              </form>
+              </div>
             </div>
 
           </div>
         </section>
+
+		<%--<div class="container">
+			<section class="ac-container">
+				<div>
+					<input id="ac-1" name="accordion-1" type="radio" />
+					<label for="ac-1">Engineer</label>
+					<article class="ac-large">
+					    <p>Check your login details. Your login username is the email address you used for registration.</p>
+					</article>
+				</div>
+				<div>
+					<input id="ac-2" name="accordion-1" type="radio" />
+					<label for="ac-2"> Accountant</label>
+					<article class="ac-large">
+					    <p>Check your login details. Your login username is the email address you used for registration.</p>
+					</article>
+				</div>
+				<div>
+					<input id="ac-3" name="accordion-1" type="radio" />
+					<label for="ac-3">Help Desk</label>
+					<article class="ac-large">
+					    <p>Check your login details. Your login username is the email address you used for registration.</p>
+					</article>
+				</div>	
+			</section>
+        </div>--%>
 
         <footer id="footer">
         <div class="footer-top">
@@ -211,6 +221,5 @@
 
       <!-- Template Main Javascript File -->
       <script src="js/main.js"></script>
-        </form>
-    </body>
+</body>
 </html>

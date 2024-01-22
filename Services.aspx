@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Services.aspx.cs" Inherits="Services" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Services.html.cs" Inherits="Services" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
@@ -23,24 +23,24 @@
         <div class="container-fluid">
 
           <div id="logo" class="pull-left">
-            <h1><a href="Index.aspx" class="scrollto">ASPEN</a></h1>
+            <h1><a href="Index.html" class="scrollto">ASPEN</a></h1>
           </div>
 
           <nav id="nav-menu-container">
             <ul class="nav-menu">
-              <li><a href="index.aspx">Home</a></li>
-              <li><a href="About.aspx">About Us</a></li>
-              <li class="menu-active"><a href="services.aspx">Services</a></li>
-              <li><a href="Projects.aspx">Projects</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="About.html">About Us</a></li>
+              <li class="menu-active"><a href="services.html">Services</a></li>
+              <li><a href="Projects.html">Projects</a></li>
               <!--<li class="menu-has-children"><a href="">Others</a>
                 <ul>
                   <li><a href="#">Careers</a></li>
                   <li><a href="#">News</a></li>
                 </ul>
               </li>-->
-              <li><a href="Careers.aspx">Careers</a></li>
-                <li><a href="News.aspx">News</a></li>
-              <li><a href="ContactUs.aspx">Contact Us</a></li>
+              <li><a href="Careers.html">Careers</a></li>
+                <li><a href="News.html">News</a></li>
+              <li><a href="ContactUs.html">Contact Us</a></li>
             </ul>
           </nav>
         </div>
@@ -75,7 +75,6 @@
                     mechanical (rotating and static equipment), electrical, instruments, control,
                     and HVAC. The followings are summarized disciplinary capabilities.</p>
               </div>
-                <!--LEED consultancy-->
               <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
                 <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
                 <h4 class="title"><a href="#">Architectural design</a></h4>
@@ -160,7 +159,7 @@
                 </p>
               </div>
                 <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                <div class="icon"><i class="ion-ios-people-outline"></i></div>
+                <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
                 <h4 class="title"><a href="#">Computer Program</a></h4>
                 <p class="description">
                     ASPEN maintains state􀇦of􀇦the􀇦art computer hard and software capabilities,
@@ -169,7 +168,7 @@
                 </p>
               </div>
                 <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                <div class="icon"><i class="ion-ios-people-outline"></i></div>
+                <div class="icon"><i class="ion-ios-paper-outline"></i></div>
                 <h4 class="title"><a href="#">Contracting</a></h4>
                 <p class="description">
                     ASPEN manages all the construction roles/activities including; engineering,
@@ -198,12 +197,12 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                 <h4>Useful Links</h4>
                 <ul>
-                    <li><i class="ion-ios-arrow-right"></i> <a href="index.aspx">Home</a></li>
-                    <li><i class="ion-ios-arrow-right"></i> <a href="About.aspx">About us</a></li>
-                    <li><i class="ion-ios-arrow-right"></i> <a href="Services.aspx">Services</a></li>
-                    <li><i class="ion-ios-arrow-right"></i> <a href="Projects.aspx">Projects</a></li>
-                    <li><i class="ion-ios-arrow-right"></i> <a href="Careers.aspx">Careers</a></li>
-                    <li><i class="ion-ios-arrow-right"></i> <a href="News.aspx">News</a></li>
+                    <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Home</a></li>
+                    <li><i class="ion-ios-arrow-right"></i> <a href="About.html">About us</a></li>
+                    <li><i class="ion-ios-arrow-right"></i> <a href="Services.html">Services</a></li>
+                    <li><i class="ion-ios-arrow-right"></i> <a href="Projects.html">Projects</a></li>
+                    <li><i class="ion-ios-arrow-right"></i> <a href="Careers.html">Careers</a></li>
+                    <li><i class="ion-ios-arrow-right"></i> <a href="News.html">News</a></li>
                 </ul>
                 </div>
 
@@ -215,8 +214,8 @@
                     Egypt <br>
                     <strong>Phone:</strong> +20 2 25426017<br>
                     <strong>Email:</strong> 
-                    <asp:LinkButton ID="InfoBtn" runat="server">info@aspen-eng.com</asp:LinkButton><br>
-                    <asp:LinkButton ID="HBtn" runat="server">h.hussein@aspen-eng.com</asp:LinkButton><br>
+                    <p><a href="mailto:info@aspen-eng.com">info@aspen-eng.com</a>
+                    <a href="mailto:h.hussein@aspen-eng.com">h.hussein@aspen-eng.com</a></p>
                 </p>
 
                 <div class="social-links">
